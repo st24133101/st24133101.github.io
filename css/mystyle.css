@@ -1,0 +1,463 @@
+@charset "utf-8";
+
+body {
+    background-color: #ffffff;
+    color: #343025;
+    font-family: "Hina Mincho", serif;
+    margin: 0;
+    padding: 0;
+}
+
+.hina-mincho-regular {
+    font-family: "Hina Mincho", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.dummy {
+    margin: 0;
+}
+
+p {
+    font-size: 80%;
+
+}
+
+h1 {
+    font-size: 130%;
+}
+
+h2 {
+    font-size: 120%;
+    border-bottom: 1px dashed #f4e669;
+    border-left: 10px solid #f4e669;
+    padding-left: 7px;
+}
+
+.name {
+    font-size: 150%;
+}
+
+.hiragana {
+    letter-spacing: 5px;
+}
+
+footer {
+    text-align: center;
+    background-color: #f4e669;
+    color: #ffffff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    clear: both;
+}
+
+article {
+    position: relative;
+    clear: both;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.logoimage {
+
+    display: block;
+    margin: 0 auto;
+
+}
+
+.catch {
+    position: absolute;
+    top: 25px;
+    left: 20px;
+    color: #3d3a37;
+    text-shadow: 0px 5px 10px #ffffff;
+}
+
+header {
+    background-color: #ffffff;
+    color: #4f4736;
+}
+
+.topimage {
+    margin: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.8;
+    font-size: 90%;
+}
+
+ul time {
+    border-radius: 10px;
+    background-color: #6ae765;
+    color: #ffffff;
+    font-size: 90%;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-right: 5px;
+}
+
+nav ul {
+    font-weight: bold;
+    text-align: right;
+    padding-top: 26px;
+    padding-bottom: 5px;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    padding-left: 10px;
+    padding-right: 12px;
+    border-right: 1px solid #f1e55e;
+}
+
+header img {
+    float: left;
+}
+
+.header-in {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sub-h1 {
+    color: #3d3d3d;
+    font-size: 300%;
+    background: linear-gradient(to top, #ffffff, #fcfcfc);
+    padding-top: 5px;
+    padding-left: 10px;
+    text-align: center;
+    margin: 0;
+    letter-spacing: 50px;
+}
+
+.p-title {
+    font-size: 120%;
+    border-bottom: 1px dashed #f4e669;
+    border-left: 10px solid #f4e669;
+    padding-left: 7px;
+}
+
+.point-list {
+    list-style-image: url(../images/list.png);
+
+
+
+}
+
+.h-title {
+    font-size: 120%;
+    border-bottom: 1px dashed #f4e669;
+    border-left: 10px solid #f4e669;
+    padding-left: 7px;
+    margin-top: 40px;
+}
+
+.point-list a {
+    text-decoration: none;
+}
+
+.point-list a:link {
+    color: #4b4b4b
+}
+
+.point-list a:visited {
+    color: #6a6f9f
+}
+
+.point-list a:hover {
+    color: #ffa646
+}
+
+.point-list a:active {
+    color: #ffffff
+}
+
+.point-img {
+
+
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.kitto {
+
+
+    float: left;
+    margin-left: 20px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+}
+
+.osanaki {
+    box-shadow: 5px 5px 5px #cbcbcb;
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.sentou {
+    clear: both;
+    text-align: right;
+
+
+
+}
+
+.sentou a {
+    color: #000;
+    text-decoration: none;
+    border: 0.5px solid #000;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    margin: auto;
+}
+
+ol li {
+    display: inline;
+    margin-right: 5px;
+    font-size: 80%;
+}
+
+ol {
+    padding-left: 0;
+}
+
+.page {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: #4d352c;
+}
+
+nav ul a:hover {
+    color: #ffcc00;
+}
+
+.slids {
+    display: flex;
+    gap: 200px;
+    /* 画像同士の間隔 */
+    justify-content: center;
+    /* 中央揃え */
+}
+
+.pro {
+    box-shadow: 5px 5px 5px #cbcbcb;
+    padding-left: 30px;
+    margin-top: 5px;
+}
+
+.h1_pro {
+    text-align: center;
+    font-size: 70%;
+    margin: 60px;
+
+
+}
+
+.number-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 180px;
+    /* 左右180pxの余白 */
+    margin-top: 40px;
+}
+
+.bun-box {
+    display: flex;
+    justify-content: left;
+    /* 真ん中に寄せる */
+    gap: 220px;
+    /* ← この数値で間隔を調整 */
+    margin-top: 0;
+
+}
+
+.setumei {
+    display: flex;
+    justify-content: center;
+    /* 真ん中に寄せる */
+    gap: 220px;
+    /* ← この数値で間隔を調整 */
+    margin-top: 20px;
+
+}
+
+.bun {
+    margin-bottom: 60px;
+}
+
+.number1,
+.number2 {
+    margin-bottom: 20px;
+    font-size: 260%;
+    letter-spacing: 5px;
+}
+
+.ex {
+    padding-left: 10px;
+    border-bottom: 1px dashed #f4e669;
+    border-left: 10px solid #f4e669;
+    width: 350px;
+}
+
+.ho-title {
+    margin-top: 50px;
+    font-size: 120%;
+    letter-spacing: 10px;
+    line-height: 3;
+}
+
+.ho-p {
+    letter-spacing: 10px;
+    line-height: 3;
+    margin-bottom: 80px;
+}
+
+.ho-h1 {
+    letter-spacing: 20px;
+    border-bottom: 1px dashed #f4e669;
+    border-left: 10px solid #f4e669;
+    padding-left: 15px;
+}
+
+.ho-img1 {
+
+
+    float: left;
+
+}
+
+.ho-img2 {
+    float: right;
+}
+
+.photo-box {
+    display: flex;
+    gap: 10px;
+    /* 画像同士の間隔 */
+    justify-content: center;
+    /* 中央揃え */
+    align-items: flex-start;
+    margin-bottom: 80px;
+    margin-top: 20px;
+
+}
+
+.ho-p2 {
+    letter-spacing: 2px;
+    line-height: 3;
+    margin: auto;
+}
+
+.pr-title {
+    text-align: center;
+    font-size: 120%;
+    margin: 60px;
+
+}
+
+table {
+    border: 1px solid #f1e55e;
+    font-size: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #ffffff;
+    border: 1px solid #ffe138;
+    padding: 10px;
+    width: 20%;
+}
+
+td {
+    border: 1px solid #ffe138;
+    padding: 10px;
+}
+
+caption {
+    caption-side: bottom;
+    margin-bottom: 50px;
+}
+
+@media(max-width:959px) {
+    header img {
+        float: none;
+    }
+
+    nav ul {
+        text-align: left;
+        padding: 0;
+        margin-left: 10px;
+    }
+
+    article {
+        width: auto;
+    }
+
+    article img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .header-in {
+        width: auto;
+    }
+
+}
+
+@media(max-width:600px) {
+    nav li {
+        font-size: 75%;
+        padding-left: 2px;
+        padding-right: 2px;
+    }
+
+    footer {
+        font-size: 75%;
+    }
+
+    .catch {
+        top: 5px;
+        left: 10px;
+    }
+
+    .point-img {
+        float: none;
+    }
+
+    th,
+    td {
+        display: block;
+        width: auto;
+    }
+}
+
+@media print {
+    .catch {
+        color: #000;
+        text-shadow: none;
+    }
+
+    footer {
+        color: #000;
+    }
+}
