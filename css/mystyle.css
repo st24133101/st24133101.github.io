@@ -234,7 +234,10 @@ ul time {
 }
 
 /*HOBBY*/
+.h2-ho{border-bottom:none;
+    border-left:none;
 
+}
 .ho-title {
     margin-top: 50px;
     font-size: 120%;
